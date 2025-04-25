@@ -1,0 +1,42 @@
+.container {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filterGroup {
+    flex: 1;
+    min-width: 200px;
+}
+
+.filterHeader {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.radioGroup,
+.checkboxGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.radioLabel,
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+}
+
+.labelText {
+    margin-left: 8px;
+}
+
+.checkboxGroup {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 5px;
+}

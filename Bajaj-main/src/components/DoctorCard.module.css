@@ -1,0 +1,31 @@
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.name {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.specialty {
+    color: #555;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.experience {
+    color: #777;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.fee {
+    font-weight: bold;
+    color: #007bff;
+}
